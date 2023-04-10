@@ -16,33 +16,7 @@ function clock(){
 
     // hoje = new Date()
     // frase.innerHTML = `${dia[hoje.getDay()]}, ${hoje.getDate().toString().padStart(2, '0')} de ${mes[hoje.getMonth()]} de ${hoje.getFullYear()}`
-    if (hoursFormat >= 0 && hoursFormat < 5){
-
-    }
-    if (hoursFormat >= 5 && hoursFormat < 8){
-
-    }
-    if (hoursFormat >= 8 && hoursFormat < 10){
-
-    }
-    if (hoursFormat >= 10 && hoursFormat < 12){
-
-    }
-    if (hoursFormat >= 12 && hoursFormat < 15){
-
-    }
-    if (hoursFormat >= 15 && hoursFormat < 17){
-
-    }
-    if (hoursFormat >= 17 && hoursFormat < 19){
-
-    }
-    if (hoursFormat >= 19 && hoursFormat < 20){
-
-    }
-    else{
-
-    }
+    
 
 }   
 setInterval(clock, 1000);
